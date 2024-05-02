@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <UserSecretsId>1d6f3c4a-a226-4652-9f1e-6993821a2a8f</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="6.0.1" />
+    <PackageReference Include="Microsoft.SemanticKernel" Version="1.10.0" />
+    <PackageReference Include="Microsoft.SemanticKernel.Plugins.Core" Version="1.10.0-alpha" />
+  </ItemGroup>
+
+</Project>
